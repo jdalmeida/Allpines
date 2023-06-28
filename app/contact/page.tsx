@@ -7,7 +7,7 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <Instagram size={20} />,
-		href: "https://instagram.com/allpines.shop",
+		href: "https://instagram.com/allpinnes",
 		label: "Instagram",
 		handle: "@allpinnes",
 	},
