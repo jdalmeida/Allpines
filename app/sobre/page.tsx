@@ -12,7 +12,7 @@ export default function Example() {
                         <img src="/logo.svg" alt="allpines"
                             style={
                                 {
-                                    width: '50em',
+                                    width: '50vw',
                                     margin: 'auto 2em',
                                     objectFit: 'contain'
                                 }
@@ -27,7 +27,7 @@ export default function Example() {
                                     O que é a Allpines?
                                 </span>
                                 <div className="flex flex-row space-beetween">
-                                    <span className="mt-4 mr-10 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                                    <span className="mt-4 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200">
                                         &emsp; A Allpines é um grupo de empresas formado por quatro jovens empreendedores que buscam integrar diferentes ramos da tecnologia para ajudar
                                                                                 a alavancar pequenas e médias empresas. Nós trabalhamos com as mais recentes tecnologias de desenvolvimento de sites, e te ajudamos a criar um 
                                                                                 site de vendas online que colocará a sua empresa no mercado do futuro.<br/>
@@ -45,7 +45,7 @@ export default function Example() {
                                     Nossa história
                                 </span>
                                 <div className="flex flex-row space-beetween">
-                                    <span className="mt-4 mr-10 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                                    <span className="mt-4 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200">
                                         &emsp; A Allpines surgiu em um sábado a tarde em uma roda de conversa com os quatro criadores da empresa. A partir dali surgiu a idéia de juntar 
                                                                             nossas habilidades e criar empresa que ajudasse pequenas e médias empresas a crescer junto conosco e atingir um mercado muito pouco explorado pelas
                                                                             empresas da nossa região.<br/>
