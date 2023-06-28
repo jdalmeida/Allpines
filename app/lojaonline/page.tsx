@@ -32,12 +32,12 @@ export default function Example() {
                                     backdropFilter: "blur(12px)"
                                 }
                         }>
-                            <div className="flex flex-col p-2 space-arround">
-                                <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
+                            <div className="flex flex-col p-2 space-arround" style={{width:"90%"}}>
+                                <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display" style={{width:"90%"}}>
                                     Quer Ter Uma Loja Online?
                                 </span>
                                 <div className="flex flex-col space-beetween">
-                                    <span className="mt-4 mx-5 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200 w-80">
+                                    <span className="mt-4 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200 w-80" style={{width:"90%"}}>
                                         &emsp; Gostaria de vender no mercado do futuro com uma loja como essas
                                         mas não sabe como? Entre em contato conosco e se preocupe só em vender.
                                     </span>
