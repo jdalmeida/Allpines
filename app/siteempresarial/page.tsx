@@ -19,6 +19,9 @@ export default function Example() {
                 }>
                     <iframe src="https://www.metalesquadrias.com.br" style={
                     {
+                        width: "100%",
+                        height: "100%",
+                        backgroundColor: "#ffffff",
                         borderRadius: "1em",
                     }
                 }/>
