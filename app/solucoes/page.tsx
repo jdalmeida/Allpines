@@ -1,27 +1,27 @@
 "use client";
-import { MessageCircle, Mail, Instagram } from "lucide-react";
+import { AppWindow, ShoppingBag, ArrowUp } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Instagram size={20} />,
-		href: "https://instagram.com/allpines.shop",
-		label: "Instagram",
-		handle: "@allpinnes",
+		icon: <ShoppingBag size={20} />,
+		href: "lojaonline",
+		label: "Criação de loja online para a sua empresa.",
+		handle: "Loja Online",
 	},
 	{
-		icon: <Mail size={20} />,
-		href: "mailto:allpinnes@gmail.com",
-		label: "Email",
-		handle: "allpinnes@gmail.com",
+		icon: <ArrowUp size={20} />,
+		href: "marketing",
+		label: "Gestão de marketing online",
+		handle: "Marketing",
 	},
 	{
-		icon: <MessageCircle size={20} />,
-		href: "https://api.whatsapp.com/send?phone=5551995143460&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os.",
-		label: "Entre em contato conosco!",
-		handle: "Whatsapp",
+		icon: <AppWindow size={20} />,
+		href: "",
+		label: "Criação de sites de apresentação para sua empresa",
+		handle: "Sites Empresariais",
 	},
 ];
 

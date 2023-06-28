@@ -1,29 +1,23 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+import { Inter } from "next/font/google";
+import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
+		default: "Allpines",
 		template: "%s | chronark.com",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Criação de sites, lojas online e marketing digital",
 	openGraph: {
-		title: "chronark.com",
+		title: "Allpines",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
-		images: [
-			{
-				url: "https://chronark.com/og.png",
-				width: 1920,
-				height: 1080,
-			},
-		],
-		locale: "en-US",
+			"Criação de sites, lojas online e marketing digital",
+		url: "https://allpines.com.br",
+		siteName: "allpines.com",
+		images: [],
+		locale: "pt-BR",
 		type: "website",
 	},
 	robots: {
@@ -38,7 +32,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Allpines",
 		card: "summary_large_image",
 	},
 	icons: {
