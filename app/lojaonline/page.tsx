@@ -20,6 +20,7 @@ export default function Example() {
                     <img src="/Captura de tela 2023-06-24 161946.png" style={
                     {
                         borderRadius: "1em",
+                        width: "70vw"
                     }
                 }/>
                 </div>
