@@ -21,7 +21,7 @@ export default function Example() {
                     {
                         width: "60em",
                         height: "30em",
-                        margin: "0 auto",
+                        margin: "7em auto",
                         backgroundColor: "#ffffff",
                         borderRadius: "1em",
                     }
