@@ -32,7 +32,7 @@ export default function Example() {
                                     backdropFilter: "blur(12px)"
                                 }
                         }>
-                            <div className="z-10 flex flex-col spmt-32 ace-arround">
+                            <div className="z-10 flex flex-col spmt-32 space-arround">
                                 <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
                                     Quer Ter Um Site de Apresentação?
                                 </span>
