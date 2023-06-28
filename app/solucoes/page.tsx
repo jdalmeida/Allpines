@@ -7,19 +7,19 @@ import { Card } from "../components/card";
 const socials = [
 	{
 		icon: <ShoppingBag size={20} />,
-		href: "lojaonline",
+		href: "/lojaonline",
 		label: "Criação de loja online para a sua empresa.",
 		handle: "Loja Online",
 	},
 	{
 		icon: <ArrowUp size={20} />,
-		href: "marketing",
+		href: "/marketing",
 		label: "Gestão de marketing online",
 		handle: "Marketing",
 	},
 	{
 		icon: <AppWindow size={20} />,
-		href: "siteempresarial",
+		href: "/siteempresarial",
 		label: "Criação de sites de apresentação para sua empresa",
 		handle: "Sites Empresariais",
 	},

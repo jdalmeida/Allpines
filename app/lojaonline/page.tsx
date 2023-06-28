@@ -32,7 +32,7 @@ export default function Example() {
                                     backdropFilter: "blur(12px)"
                                 }
                         }>
-                            <div className="z-10 flex flex-col spmt-32 space-arround">
+                            <div className="z-10 flex flex-col p-2 mt-32 space-arround">
                                 <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
                                     Quer Ter Uma Loja Online?
                                 </span>
@@ -42,7 +42,7 @@ export default function Example() {
                                         mas não sabe como? Entre em contato conosco e se preocupe só em vender.
                                     </span>
                                     <Link
-                                    href="contact"
+                                    href="/contact"
                                     style={{margin:"0 auto"}}
                                     >
                                     <button className="mt-4 px-4 py-2 text-sm font-medium text-gray-500 bg-transparent border border-gray-500 rounded hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
