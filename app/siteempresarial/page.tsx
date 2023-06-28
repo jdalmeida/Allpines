@@ -37,7 +37,7 @@ export default function Example() {
                         }>
                             <div className="z-10 flex flex-col spmt-32 ace-arround">
                                 <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
-                                    Quer Ter Um Site de Apresentação Para Sua Empresa?
+                                    Quer Ter Um Site de Apresentação?
                                 </span>
                                 <div className="flex flex-col space-beetween">
                                     <span className="mt-4 mr-10 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200 w-80">
