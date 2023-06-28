@@ -19,7 +19,7 @@ export default function Example() {
                 }>
                     <iframe src="https://www.metalesquadrias.com.br" style={
                     {
-                        width: "80vw",
+                        width: "60em",
                         height: "30em",
                         margin: "0 auto",
                         backgroundColor: "#ffffff",
