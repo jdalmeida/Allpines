@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <AppWindow size={20} />,
-		href: "",
+		href: "siteempresarial",
 		label: "Criação de sites de apresentação para sua empresa",
 		handle: "Sites Empresariais",
 	},
