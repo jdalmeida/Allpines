@@ -37,7 +37,7 @@ export default function Example() {
                                     Quer Ter Um Site de Apresentação?
                                 </span>
                                 <div className="flex flex-col space-beetween">
-                                    <span className="mt-4 mr-10 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200 w-80">
+                                    <span className="mt-4 mr-10 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200">
                                         &emsp; Gostaria de aparecer para seus clientes com um site moderno e funcional para mostrar a sua marca
                                         mas não sabe como? Entre em contato conosco e se preocupe só em vender.
                                     </span>
