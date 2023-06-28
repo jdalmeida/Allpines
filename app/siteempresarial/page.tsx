@@ -17,12 +17,8 @@ export default function Example() {
                         borderRadius: "1em",
                     }
                 }>
-                    <iframe src="https://www.metalesquadrias.com.br" style={
+                    <img src="/Captura de tela 2023-06-28 090456.png" style={
                     {
-                        width: "60em",
-                        height: "30em",
-                        margin: "7em auto",
-                        backgroundColor: "#ffffff",
                         borderRadius: "1em",
                     }
                 }/>
@@ -41,7 +37,7 @@ export default function Example() {
                                     Quer Ter Um Site de Apresentação?
                                 </span>
                                 <div className="flex flex-col space-beetween">
-                                    <span className="mt-4 mr-10 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                                    <span className="mt-4 mr-10 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200 w-80">
                                         &emsp; Gostaria de aparecer para seus clientes com um site moderno e funcional para mostrar a sua marca
                                         mas não sabe como? Entre em contato conosco e se preocupe só em vender.
                                     </span>
