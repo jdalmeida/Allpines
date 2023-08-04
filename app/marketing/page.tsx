@@ -1,7 +1,7 @@
 "use client";
 import {Navigation} from "../components/nav";
 import {Card} from "../components/card";
-import { BadgeDollarSign, View, Lightbulb } from "lucide-react";
+import { BadgeDollarSign, View, Lightbulb, Plus } from "lucide-react";
 import Link from "next/link";
 
 
@@ -10,33 +10,39 @@ export default function Example() {
         {
             icon: <View size={20} />,
             href: "https://api.whatsapp.com/send?phone=5551995143460&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20Tr%C3%A1fego%20Org%C3%A2nico%20para%20minha%20empresa.",
-            label: "Atinja mais pessoas com seus posts",
-            handle: "Tráfego Orgânico",
+            label: "R$300,00 / Mês",
+            handle: "Plano Low-Cost",
         },
         {
             icon: <BadgeDollarSign size={20} />,
             href: "https://api.whatsapp.com/send?phone=5551995143460&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20de%20Tr%C3%A1fego%20Pago%20para%20minha%20empresa.",
-            label: "Atinja as pesoas certas que irão comprar seu produto",
-            handle: "Tráfego Pago",
+            label: "R$600,00 / Mês",
+            handle: "Plano Basic",
         },
         {
             icon: <Lightbulb size={20} />,
             href: "https://api.whatsapp.com/send?phone=5551995143460&text=Ol%C3%A1!%20Gostaria%20de%20uma%20consultoria%20de%20marketing%20para%20minha%20empresa.",
-            label: "Saiba como o seu público se comporta para conseguir vender para ele",
-            handle: "Consultoria",
+            label: "R$1000 / mes",
+            handle: "Plano Standard",
+        },
+		{
+            icon: <Plus size={20} />,
+            href: "https://api.whatsapp.com/send?phone=5551995143460&text=Ol%C3%A1!%20Gostaria%20de%20uma%20consultoria%20de%20marketing%20para%20minha%20empresa.",
+            label: "R$1500,00 / Mês",
+            handle: "Plano Premium",
         },
     ];
     return (
         <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
             <Navigation/>
             <div className="container flex items-center justify-center min-h-screen px-4 mx-auto mt-5">
-				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+				<div className="grid w-full grid-cols-4 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-4 lg:gap-16">
 					{socials.map((s) => (
 						<Card>
 							<Link
 								href={s.href}
 								target="_blank"
-								className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16"
+								className="p-4 text-center relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16"
 							>
 								<span
 									className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
