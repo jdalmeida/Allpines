@@ -1,60 +1,74 @@
 "use client";
-import {Navigation} from "../components/nav";
-import {Card} from "../components/card";
+import { Navigation } from "../components/nav";
+import { Card } from "../components/card";
 import Link from "next/link";
+import MediaQuery from "react-responsive";
 
 export default function Example() {
     return (
-        <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
-            <Navigation/>
-            <div className="container flex-col flex items-center justify-center min-h-screen px-4 mx-auto">
-                <div style={
-                    {
-                        width: "70vw",
-                        height: "20em",
-                        objectFit: "contain",
-                        marginTop: "7em",
-                        borderRadius: "1em",
-                    }
-                }>
-                    <img src="/Captura de tela 2023-06-24 161946.png" style={
-                    {
-                        borderRadius: "1em",
-                    }
-                }/>
-                </div>
-                <div className="flex grid flex-wrap gap-8 mb-12 mt-20 sm:mt-20 sm:grid-cols-1 lg:gap-16">
-                    <Card>
-                        <div className="p-4 relative flex flex-col items-center m:5em"
-                            style={
-                                {
-                                    backgroundColor: "#00000088",
-                                    backdropFilter: "blur(12px)"
-                                }
-                        }>
-                            <div className="flex flex-col p-2 space-arround" style={{width:"90%"}}>
-                                <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display" style={{width:"90%"}}>
-                                    Quer Ter Uma Loja Online?
-                                </span>
-                                <div className="flex flex-col space-beetween">
-                                    <span className="mt-4 text-sm text-justify duration-1000 text-zinc-400 group-hover:text-zinc-200 w-80" style={{width:"90%"}}>
-                                        &emsp; Gostaria de vender no mercado do futuro com uma loja como essas
-                                        mas não sabe como? Entre em contato conosco e se preocupe só em vender.
-                                    </span>
-                                    <Link
+        <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 h-[100vh]">
+            <Navigation />
+
+            <MediaQuery query="(min-device-width: 768px)">
+            <div className="text-zinc-400 relative bg-[url(/lojaonline.png)] bg-center bg-contain bg-right-top bg-no-repeat shadow-xl mt-20">
+                    <div className="absolute inset-0 bg-black-75 bg-transparent from-black/95 to-white-25 bg-gradient-to-r bg-gradient-to-l">
+                    </div>
+                    <div className="relative mx-auto max-w-screen-xl px-4 sm:py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 min-[400px]:mt-20">
+                        <Card>
+                            <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right p-4 rounded-xl bg-gray-900/75 bg-transparent from-gray-900/75 to-white-25 bg-gradient-to-r bg-gradient-to-l">
+                                <h1 className="text-3xl font-extrabold sm:text-5xl text-left animtxt">
+                                    Quer Ter Uma
+                                    <strong className="block font-extrabold text-blue-700">
+                                        Loja Online?
+                                    </strong>
+                                </h1>
+
+                                <p className="mt-4 max-w-lg sm:text-xl/relaxed text-left">
+                                    Gostaria de vender no mercado do futuro com uma loja como essa
+                                    mas não sabe como? Entre em contato conosco e se preocupe só em vender.
+                                </p>
+                                <Link
                                     href="/contact"
-                                    style={{margin:"0 auto"}}
-                                    >
+                                    style={{ margin: "0 auto" }}
+                                >
                                     <button className="mt-4 px-4 py-2 text-sm font-medium text-gray-500 bg-transparent border border-gray-500 rounded hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
                                         Entre em contato
                                     </button>
-                                    </Link>
-                                </div>
+                                </Link>
                             </div>
-                        </div>
-                    </Card>
+                        </Card>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </MediaQuery>
+
+            <MediaQuery query="(max-device-width: 768px)">
+                <div className="relative bg-[url(/lojaonline.png)] bg-center bg-contain bg-no-repeat shadow-xl mt-20 w-100 h-[20em]"></div>
+                <div className="text-zinc-400 relative mx-auto max-w-screen-xl px-4 sm:py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+                        <Card>
+                            <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right p-4 rounded-xl bg-gray-900/75 bg-transparent from-gray-900/75 to-white-25 bg-gradient-to-r bg-gradient-to-l">
+                                <h1 className="text-3xl font-extrabold sm:text-5xl text-left animtxt">
+                                    Quer Ter Uma
+                                    <strong className="block font-extrabold text-blue-700">
+                                        Loja Online?
+                                    </strong>
+                                </h1>
+
+                                <p className="mt-4 max-w-lg sm:text-xl/relaxed text-left">
+                                    Gostaria de vender no mercado do futuro com uma loja como essa
+                                    mas não sabe como? Entre em contato conosco e se preocupe só em vender.
+                                </p>
+                                <Link
+                                    href="/contact"
+                                    style={{ margin: "0 auto" }}
+                                >
+                                    <button className="mt-4 px-4 py-2 text-sm font-medium text-gray-500 bg-transparent border border-gray-500 rounded hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+                                        Entre em contato
+                                    </button>
+                                </Link>
+                            </div>
+                        </Card>
+                    </div>
+            </MediaQuery>
+        </div >
     );
 }
